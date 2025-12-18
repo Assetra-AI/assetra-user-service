@@ -22,3 +22,28 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+application-local.yml
+application-dev.yml
+application-prod.yml
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Kafka
+# =========================
+kafka-logs/
+
